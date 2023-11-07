@@ -8,7 +8,7 @@
 
 Create PHP MVC framework like [Laravel](https://laravel.com/) then develop movie app as [Movie Joy](https://moviesjoyhd.to/home)
 
-- [Auto Loading]()
+- [Autoloading Classes]()
 - [Routing System]()
 - [View]()
 - [Model]()
