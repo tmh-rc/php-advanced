@@ -85,7 +85,7 @@ class MovieController
 
     public function destroy($id)
     {
-        $movie = $this->db->query('DELETE...', ['id' => $id])->get();
+        $movie = $this->db->query('DELETE...', ['id' => $id]);
 
         redirect('/movies');
     }
@@ -122,7 +122,7 @@ In View
 </form>
 ```
 
-```html
+```php
 // views/movies/create.php
 <h3>Movie Create</h3>
 <form action="/movies" method="POST">
