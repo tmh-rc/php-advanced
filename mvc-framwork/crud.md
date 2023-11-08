@@ -137,7 +137,7 @@ In View
 
 ```php
 // views/movies/edit.php
-<h3>Movie Create</h3>
+<h3>Movie Edit</h3>
 <form action="/movies/<?php echo $movie['id'] ?>" method="POST">
     <input type="hidden" name="_method" value="PUT">
     <input type="text" name="title" value="<?php echo $movie['title']; ?>">

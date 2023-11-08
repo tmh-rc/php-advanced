@@ -5,7 +5,9 @@
 
 ## Steps
 
-Create project folder named `movie-app`. Inside the folder, create controllers and routes following tree.
+### Step 1
+
+Create project folder named `movie-app`. Inside the folder, create controllers and routes following tree. The `test.php` file for testing.
 
 ```
 movie-app
@@ -17,7 +19,9 @@ movie-app
 └─ test.php
 ```
 
-Put this code in `Controllers/HomeController.php`
+### Step 2
+
+The code in `Controllers/HomeController.php` must be following
 
 ```php
 <?php
@@ -33,7 +37,9 @@ class HomeController
 }
 ```
 
-Put this code in `Core/Router.php`
+### Step 3
+
+The code in `Core/Router.php` must be following
 
 ```php
 <?php
@@ -49,7 +55,9 @@ class Router
 }
 ```
 
-Put this code in `test.php`
+### Step 4
+
+Write following code in `test.php` to test `autoload` is working or not.
 
 ```php
 <?php
@@ -61,6 +69,8 @@ use Controllers\HomeController;
 (new HomeController)->index();
 (new HomeController)->index();
 ```
+
+## Testing
 
 Write code in `autoload.php` using `spl_autoload_register` function to see following result when run the `test.php` file in terminal.
 

@@ -13,9 +13,12 @@ Create PHP MVC framework like [Laravel](https://laravel.com/) then develop movie
 - [Validation](./validation.md)
 - [Validation Rules](./validation-rules.md)
 - [Validation (Automatic Redirection)](./validation-automatic-redirection.md)
-- [Authentication]()
-- [Authorization & Middleware]()
-- [File Uploading]()
-- [File Downloading]()
-- [RESTful API]()
-- [Unit Test]()
+- [Authentication](./authentication.md)
+- [Authorization & Middleware](./authorization-and-middleware.md)
+- [Facade](./facade.md)
+- [File Uploading](./file-uploading.md)
+- [File Downloading](./file-downloading.md)
+
+> Pending ...
+> - [RESTful API]()
+> - [Unit Test]()
