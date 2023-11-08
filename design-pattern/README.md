@@ -16,3 +16,5 @@ Learn and Answer all question by burmese with code sample.
 
 - What is `SOLID` principles?
 - What is `DRY` principles?
+
+[Previous](../oop/README.md) | [Next](../mvc-framwork/README.md)

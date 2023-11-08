@@ -27,4 +27,4 @@ Learn and answer below. The questions are
 - Exception
 
 
-[Previous](../README.md) | [Next](../mvc-framwork/README.md)
+[Previous](../README.md) | [Next](../design-pattern/README.md)
