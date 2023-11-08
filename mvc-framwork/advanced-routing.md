@@ -2,7 +2,7 @@
 
 ## Todo
 
-- Change more readable route parameters
+- Make route parameters more readable.
 
 ```php
 // Old Code

@@ -7,11 +7,11 @@
 
 ## Todo
 
-Write following helper functions and class as [Laravel helpers](https://laravel.com/docs/10.x/helpers) in `Core/helpers.php`
+Write the following helper functions and class as [Laravel helpers](https://laravel.com/docs/10.x/helpers) in `Core/helpers.php`
 
 ## Class
 
-Create `Request` class. Do following
+The code structure of `Request` class must follow the specified guidelines.
 
 ```php
 <?php
@@ -74,7 +74,7 @@ if (!function_exists('request')) {
 
 ## Testing
 
-Use base_path function in `public/index.php` file
+Use `base_path` function in `public/index.php` file
 
 ```diff
 // pubic/index.php

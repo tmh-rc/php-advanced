@@ -1,11 +1,13 @@
 # Validation Rules <!-- omit from toc -->
 
 - [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
 - [Testing](#testing)
 
 ## Todo
 
-Must be validate following rules
+Define validation rules as shown below.
 
 - required
 - min:number (eg. min:10 )
@@ -17,9 +19,11 @@ Must be validate following rules
 - video
 - nullable
 
-## Testing
+## Steps
 
-Add more validation rules in controllers
+### Step 1
+
+Add more validation rules in the controllers
 
 ```diff
     class MovieController
@@ -53,3 +57,7 @@ Add more validation rules in controllers
         }
     }
 ```
+
+## Testing
+
+More defined validations rules must work correctly.

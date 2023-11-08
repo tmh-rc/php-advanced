@@ -8,13 +8,13 @@
 
 ## Todo
 
-- Write movie CRUD.
+- Create movie CRUD(Create, Read, Update, Delete) functionality.
 
 ## Steps
 
 ### Step 1
 
-In controller, response movie data from database.
+In the controller, fetch movie data from the database and then return it to the view.
 
 ```php
 <?php
@@ -102,7 +102,7 @@ class MovieController
 
 ### Step 2
 
-In View
+The code in the view should adhere to the following outlined structure. Additional elements can be added.
 
 ```php
 // views/movies/index.php
@@ -161,4 +161,4 @@ In View
 
 ## Testing
 
-Run in terminal `php -S localhost:8080`. Can do CRUD operation.
+Run `php -S localhost:8080` in terminal. Perform CRUD operations.

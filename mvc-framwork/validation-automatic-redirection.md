@@ -8,7 +8,7 @@
 
 ## Todo
 
-- Add `validate` method to automatic redirection when validation failed
+- Add the `validate` method for automatic redirection when validation fails.
 
 ```php
 class Validator
@@ -23,6 +23,8 @@ class Validator
 ## Steps
 
 ### Step 1
+
+Refactor the validation as follows.
 
 ```php
 // Old
@@ -49,4 +51,4 @@ $validator = Validator::make(request()->all(), [
 
 ## Testing
 
-Must work previous state.
+It should operate as it did in the previous state.

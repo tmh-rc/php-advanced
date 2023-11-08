@@ -7,13 +7,13 @@
 
 ## Todo
 
-- Create middleware in Router
+- Create a middleware in Router
 
 ## Steps
 
 ### Step 1
 
-Add middleware in auth routes. See following:
+Add middleware to authentication routes. Refer to the following outline:
 
 ```php
 $router->get('/login', LoginController::class, 'create')->middleware('guest');

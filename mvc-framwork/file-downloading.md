@@ -8,13 +8,13 @@
 
 ## Todo
 
-- Add `download` method in File class
+- Add a `download` method in `File` class
 
 ## Steps
 
 ### Step 1
 
-Add `download` method in File class. See following
+Add `download` method in File class as shown below
 
 ```php
 class File
@@ -37,4 +37,4 @@ Add download link button in movie detail page.
 
 ## Testing
 
-When click the download button, the movie must download.
+When the download button is clicked, the movie will start downloading.

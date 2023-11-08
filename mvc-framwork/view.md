@@ -18,7 +18,7 @@
 
 ### Step 1
 
-Create view files `index.php`, `create.php`, `edit.php` in `views/movies` folder
+Create view files `index.php`, `create.php`, `edit.php` in the `views/movies` folder
 
 ```diff
     movie-app/
@@ -43,7 +43,7 @@ Create view files `index.php`, `create.php`, `edit.php` in `views/movies` folder
 
 ### Step 2
 
-Put this code in `views/movies/index.php`
+Place the following code in `views/movies/index.php`
 
 ```html
 Movie list
@@ -51,7 +51,7 @@ Movie list
 
 ### Step 3
 
-Put this code in `views/movies/show.php`
+Place the following code in `views/movies/show.php`
 
 ```php
 Movie detail by ID: <?php echo $id ?>
@@ -59,7 +59,7 @@ Movie detail by ID: <?php echo $id ?>
 
 ### Step 4
 
-Put this code in `views/movies/create.php`
+Place the following code in `views/movies/create.php`
 
 ```php
 Movie Create
@@ -67,7 +67,7 @@ Movie Create
 
 ### Step 5
 
-Put this code in `views/movies/edit.php`
+Place the following code in `views/movies/edit.php`
 
 ```php
 Movie Edit by ID: <?php echo $id ?>
@@ -75,7 +75,7 @@ Movie Edit by ID: <?php echo $id ?>
 
 ### Step 6
 
-Response view from `index`, `show`, `create`, `edit` methods of controller
+Return the view from the `index`, `show`, `create` and `edit` methods of the controller.
 
 ```php
 <?php
@@ -112,4 +112,4 @@ class MovieController
 
 ## Testing
 
-Page must work [previous movie routes](./routing.md#testing)
+The page should be compatible with the existing movie [routes](./routing.md#testing).

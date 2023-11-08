@@ -9,7 +9,7 @@
 
 ## Todo
 
-- Create `Validator` class. Must include `make`, `fails` and `errors` method as following
+- Create the Validator class, which must include the make, fails, and errors methods as outlined below.
 
 ```php
 <?php
@@ -39,7 +39,7 @@ class Validator
 
 ### Step 1
 
-Create a `Core/Validator` file.
+Create a `Core/Validator` file as follows
 
 ```diff
     movie-app/
@@ -67,7 +67,7 @@ Create a `Core/Validator` file.
 
 ### Step 2
 
-Usage Validating in controller
+Perform validation in the controller as follows.
 
 ```diff
     <?php
@@ -126,7 +126,7 @@ Usage Validating in controller
 
 ### Step 3
 
-Display error in create and edit form
+Show error messages in the create and edit forms.
 
 ```diff
     // views/movies/create.php
@@ -165,4 +165,4 @@ Display error in create and edit form
 
 ## Testing
 
-Must display error message when validation failed.
+An error message must be shown in the view when validation fails.

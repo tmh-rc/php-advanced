@@ -18,7 +18,7 @@
 
 ### Step 1
 
-Create the files. See in following tree:
+Create the files according to the outlined structure.
 
 ```diff
     movie-app/
@@ -52,7 +52,7 @@ Create the files. See in following tree:
 
 ### Step 2
 
-`Auth` class must has `attempt`, `user`, `id`, `check`, `logout` methods. See following code
+The code structure of `Auth` class must follow the specified guidelines.
 
 ```php
 <?php
@@ -92,7 +92,7 @@ class Auth
 
 ### Step 3
 
-Create auth routes
+Create the auth routes.
 
 ```php
 $router->get('/login', LoginController::class, 'create');
@@ -105,7 +105,7 @@ $router->post('/register', RegisterController::class, 'store');
 
 ### Step 4
 
-The code in `RegisterController.php` must be following:
+The code in `RegisterController.php` must adhere to the following.
 
 ```php
 class RegisterController
@@ -137,7 +137,7 @@ class RegisterController
 
 ### Step 5
 
-The code in `LoginController.php` must be following:
+The code in `LoginController.php` must adhere to the following.
 
 ```php
 class LoginController
@@ -178,8 +178,8 @@ class LoginController
 
 ### Step 6
 
-Create `login` from in `views/auth/login.php` and `register` form in `views/auth/register.php`.
+Create the `login` from in `views/auth/login.php` and `register` form in `views/auth/register.php`.
 
 ## Testing
 
-Login and register must work.
+It must be able to login and register.

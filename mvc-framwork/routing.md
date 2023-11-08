@@ -11,13 +11,13 @@
 
 ## Todo
 
-- Write routing system in `Core/Router.php` files.
+- Write routing system in the `Core/Router.php` files.
 
 ## Steps
 
 ### Step 1
 
-Create folders and files as following tree in the `movie-app` folder.
+Create folders and files as following outlined structure within the `movie-app` folder.
 > Note: No need to delete previous folders and files.
 
 ```diff
@@ -37,7 +37,7 @@ Create folders and files as following tree in the `movie-app` folder.
 
 ### Step 2
 
-Put this code in `Controllers/MovieController.php`
+The code structure in `MovieController.php` must follow the specified guidelines.
 
 ```php
 <?php
@@ -85,7 +85,7 @@ class MovieController
 
 ### Step 3
 
-Put this code in `routes/web.php`
+The code structure in `routes/web.php` must follow the specified guidelines.
 
 ```php
 <?php
@@ -103,7 +103,7 @@ $router->delete('movies/(\w+)', [MovieController::class, 'destroy']);
 
 ### Step 4
 
-Put this code in `public/index.php`
+The code structure in `public/index.php` must follow the specified guidelines.
 
 ```php
 <?php
@@ -119,7 +119,7 @@ $router->route();
 
 ### Step 5
 
-Put this code in `Core/Router.php`.
+The code structure in `Core/Router.php` must follow the specified guidelines.
 
 ```php
 <?php
@@ -176,8 +176,8 @@ class Router
 
 ## Testing
 
-Write code in `route` method. Use regular expression for URI. Following routes must work.
-> Note: There is no form created yet. Therefore test with [Postman](https://www.postman.com/).
+Write code in the `route` method using regular expressions for the URI. Ensure that the following routes function correctly.
+> Note: No form has been created yet. Therefore, test with [Postman](https://www.postman.com/).
 
 <details>
 <summary><code>GET</code> <code>/movies</code></summary>

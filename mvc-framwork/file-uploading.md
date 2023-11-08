@@ -11,13 +11,13 @@
 
 ## Todo
 
-- Create `File` class to handle files
+- Create a `File` class to handle files
 
 ## Steps
 
 ### Step 1
 
-Create the files
+Create the following files
 
 ```diff
     movie-app/
@@ -55,7 +55,7 @@ Create the files
 
 ### Step 2
 
-In the `File` class must has `getClientOriginalName`, `storeAs`, `store`, `delete` methods. See following
+The code structure of `File` class must follow the specified guidelines.
 
 ```php
 <?php
@@ -88,7 +88,7 @@ class File
 
 ### Step 3
 
-Add `file` and `hasFile` methods in `Request` Class. See following
+Add methods `file` and `hasFile` in the `Request` class as shown below.
 
 ```php
 class Request
@@ -108,9 +108,10 @@ class Request
 
 ### Step 3
 
-Change `text` field to `file` field in movie create and edit form.
+Change field `text` to `file` in the movie create and edit form.
 
 `views/movies/create.php`
+
 ```diff
 <h3>Movie Create</h3>
 <form action="/movies" method="POST">
@@ -122,6 +123,7 @@ Change `text` field to `file` field in movie create and edit form.
 ```
 
 `views/movies/edit.php`
+
 ```diff
 <h3>Movie Edit</h3>
 <form action="/movies/<?php echo $movie['id'] ?>" method="POST">
@@ -135,7 +137,7 @@ Change `text` field to `file` field in movie create and edit form.
 
 ### Step 4
 
-Update `store` and `update` method in MovieController
+Update method `store` and `update` in MovieController as shown below.
 
 ```diff
     class MovieController
@@ -166,7 +168,7 @@ Update `store` and `update` method in MovieController
 -               'poster_image_path' => ['required'],
 +               'poster_image' => ['required', 'file', 'image'],
             ]);
-            
+
 +           if (request()->hasFile('poster_image')) {
 +               File::delete($movie['poster_image_path']); // delete old image
 +               $filePath = request()->file('poster_image')->store('upload/images/');
@@ -185,4 +187,4 @@ Update `store` and `update` method in MovieController
 
 ## Testing
 
-Image upload and display must work.
+The image can be uploaded and displayed on the page.

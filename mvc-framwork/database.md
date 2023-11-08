@@ -9,15 +9,14 @@
 
 ## Todo
 
-Create Database class in `Core/Database.php` for Model
+Create a `Database` class in `Core/Database.php` for Model
 
 ## Steps
 
 ### Step 1
 
-Create a database `mtm_movie`
+Create a database named `mtm_movie` and table named `movies` based on the following schema.
 
-Create table `movies`
 
 | Name              | Type                | Nullable | Default           |
 |-------------------|---------------------|----------|-------------------|
@@ -32,7 +31,7 @@ Create table `movies`
 
 ### Step 1
 
-Create files
+Create the following files
 
 ```diff
     movie-app/
@@ -59,7 +58,7 @@ Create files
 
 ### Step 3
 
-Put code in `config/database.php`. Use correct database credentials.
+Place the following code in `config/database.php`, ensuring the use of correct database credentials:
 
 ```php
 <?php
@@ -73,7 +72,6 @@ return [
     'charset' => 'utf8mb4',
     'collation' => 'utf8mb4_unicode_ci',
 ]
-
 ```
 
 ## Testing

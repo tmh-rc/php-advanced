@@ -1,4 +1,4 @@
-# Autoloading Classes <!-- omit from toc -->
+# Auto loading Classes <!-- omit from toc -->
 
 - [Todo](#todo)
 - [Steps](#steps)
@@ -9,13 +9,13 @@
 - [Testing](#testing)
 
 ## Todo
-- Create own autoloading classes in `autoload.php` file.
+- Create your own auto loading classes in the `autoload.php` file.
 
 ## Steps
 
 ### Step 1
 
-Create project folder named `movie-app`. Inside the folder, create controllers and routes following tree. The `test.php` file for testing.
+Create a project folder named 'movie-app'. Inside this folder, establish controllers and routes following the outlined structure, and include a 'test.php' file for testing purposes.
 
 ```
 movie-app
@@ -29,7 +29,7 @@ movie-app
 
 ### Step 2
 
-The code in `Controllers/HomeController.php` must be following
+The code structure in `HomeController.php` must follow the specified guidelines.
 
 ```php
 <?php
@@ -47,7 +47,7 @@ class HomeController
 
 ### Step 3
 
-The code in `Core/Router.php` must be following
+The code structure in `Router.php` must follow the specified guidelines.
 
 ```php
 <?php
@@ -80,7 +80,7 @@ use Controllers\HomeController;
 
 ## Testing
 
-Write code in `autoload.php` using `spl_autoload_register` function to see following result when run the `test.php` file in terminal.
+Write code in `autoload.php` using the `spl_autoload_register` function to see following result when run the `test.php` file in terminal.
 
 **In terminal**
 ```

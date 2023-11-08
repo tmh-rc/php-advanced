@@ -9,13 +9,13 @@
 
 ## Todo
 
-- Create `Session` class as [Laravel Session](https://laravel.com/docs/5.3/session#using-the-session)
+- Create a `Session` class as [Laravel Session](https://laravel.com/docs/5.3/session#using-the-session)
 
 ## Steps
 
 ### Step 1
 
-Create a file in `Core/Session.php`. 
+Create a file in `Core/Session.php`. The code structure of `Session` class must follow the specified guidelines.
 
 ```php
 <?php
@@ -26,41 +26,41 @@ class Session
 {
     public function put($key, $value)
     {
-        // Store $value to session
+        //TODO: Store $value to session
     }
 
     public function get($key, $default = null)
     {
-        // Retrieve $value from session by $key
-        // What if not found, return $default
+        //TODO: Retrieve $value from session by $key
+        //TODO: What if not found, return $default
     }
 
     public function has($key)
     {
-        // To determine if a $value is present in the session.
+        //TODO: To determine if a $value is present in the session.
     }
 
     public function flash($key, $value)
     {
-        // Store $value in session by $key name
-        // delete after calling from session function by $key name
+        //TODO: Store $value in session by $key name
+        //TODO: delete after calling from session function by $key name
     }
 
     public function forget($key)
     {
-        // Remove $value from session by $key name
+        //TODO: Remove $value from session by $key name
     }
 
     public function flush($key)
     {
-        // Remove all data from the session
+        //TODO: Remove all data from the session
     }
 }
 ```
 
 ### Step 1
 
-In Controller, put flash message after `create` or `update` or `delete`.
+In the controller, add a flash message after performing `create`, `update`, or `delete` operations.
 
 ```diff
     class MovieController
@@ -100,7 +100,7 @@ In Controller, put flash message after `create` or `update` or `delete`.
 
 ### Step 3
 
-In view, display flash message.
+In the view, display the flash message that was added from the controller.
 
 ```diff
     // views/movies/index.php
@@ -114,4 +114,4 @@ In view, display flash message.
 
 ## Testing
 
-Flash message must shown after created or updated.
+The flash message must be shown whenever performing `create`, `update`, or `delete` operations.

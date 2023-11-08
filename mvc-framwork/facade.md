@@ -53,7 +53,7 @@ Create the files following:
 
 ### Step 2
 
-Create DB facade. Code must be following:
+Create a `DB` facade. The code structure must follow the specified guidelines.
 
 ```php
 <?php
@@ -78,8 +78,11 @@ class DB extends Facade
 
 Replace all `DB` facade at `Database`. See following eg.
 
+In the controllers, update the import statement from using `Core\Database` to `Facades\DB` , and adjust the variable initialization from `new Database` to `DB::query`.
+
 ```diff
 +   use Facades\DB;
+-   use Core\Database;
 
     class MovieController
     {
@@ -103,7 +106,7 @@ Replace all `DB` facade at `Database`. See following eg.
 
 ### Step 4
 
-Consider what code should write in `Facade` class
+Determine the code needed for the Facade class.
 
 ```php
 <?php
@@ -120,4 +123,4 @@ class Facade
 
 ## Testing
 
-- All query must work as previous although replace `DB` facade.
+Make sure all queries still work the same way, even after changing the DB facade.
