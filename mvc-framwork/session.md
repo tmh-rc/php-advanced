@@ -1,10 +1,19 @@
-# Flash Message
+# Flash Message <!-- omit from toc -->
+
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+  - [Step 1](#step-1-1)
+  - [Step 3](#step-3)
+- [Testing](#testing)
 
 ## Todo
 
 - Create `Session` class as [Laravel Session](https://laravel.com/docs/5.3/session#using-the-session)
 
 ## Steps
+
+### Step 1
 
 Create a file in `Core/Session.php`. 
 
@@ -49,6 +58,8 @@ class Session
 }
 ```
 
+### Step 1
+
 In Controller, put flash message after `create` or `update` or `delete`.
 
 ```diff
@@ -87,6 +98,8 @@ In Controller, put flash message after `create` or `update` or `delete`.
     }
 ```
 
+### Step 3
+
 In view, display flash message.
 
 ```diff
@@ -98,3 +111,7 @@ In view, display flash message.
     <?php endforeach; ?>
     </ul>
 ```
+
+## Testing
+
+Flash message must shown after created or updated.

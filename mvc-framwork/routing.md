@@ -1,10 +1,21 @@
-# Routing
+# Routing <!-- omit from toc -->
+
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+  - [Step 2](#step-2)
+  - [Step 3](#step-3)
+  - [Step 4](#step-4)
+  - [Step 5](#step-5)
+- [Testing](#testing)
 
 ## Todo
 
 - Write routing system in `Core/Router.php` files.
 
 ## Steps
+
+### Step 1
 
 Create folders and files as following tree in the `movie-app` folder.
 > Note: No need to delete previous folders and files.
@@ -23,6 +34,8 @@ Create folders and files as following tree in the `movie-app` folder.
     ├── autoload.php
     └── test.php
 ```
+
+### Step 2
 
 Put this code in `Controllers/MovieController.php`
 
@@ -70,6 +83,8 @@ class MovieController
 }
 ```
 
+### Step 3
+
 Put this code in `routes/web.php`
 
 ```php
@@ -86,6 +101,8 @@ $router->get('movies/(\w+)', [MovieController::class, 'show']);
 $router->delete('movies/(\w+)', [MovieController::class, 'destroy']);
 ```
 
+### Step 4
+
 Put this code in `public/index.php`
 
 ```php
@@ -99,6 +116,8 @@ $router = new Router;
 require 'routes/web.php';
 $router->route();
 ```
+
+### Step 5
 
 Put this code in `Core/Router.php`.
 
@@ -155,7 +174,7 @@ class Router
 }
 ```
 
-### Testing
+## Testing
 
 Write code in `route` method. Use regular expression for URI. Following routes must work.
 > Note: There is no form created yet. Therefore test with [Postman](https://www.postman.com/).
@@ -163,9 +182,9 @@ Write code in `route` method. Use regular expression for URI. Following routes m
 <details>
 <summary><code>GET</code> <code>/movies</code></summary>
 
-##### Code: 200
+##### Code: 200 <!-- omit from toc -->
 
-##### Content
+##### Content <!-- omit from toc -->
 ```
 Movie list
 ```
@@ -174,9 +193,9 @@ Movie list
 <details>
 <summary><code>GET</code> <code>/movies/123</code></summary>
 
-##### Code: 200
+##### Code: 200 <!-- omit from toc -->
 
-##### Content
+##### Content <!-- omit from toc -->
 ```
 Movie detail by ID: 123
 ```
@@ -185,9 +204,9 @@ Movie detail by ID: 123
 <details>
 <summary><code>GET</code> <code>/movies/create</code></summary>
 
-##### Code: 200
+##### Code: 200 <!-- omit from toc -->
 
-##### Content
+##### Content <!-- omit from toc -->
 ```
 Movie Create
 ```
@@ -196,9 +215,9 @@ Movie Create
 <details>
 <summary><code>POST</code> <code>/movies</code></summary>
 
-##### Code: 200
+##### Code: 200 <!-- omit from toc -->
 
-##### Content
+##### Content <!-- omit from toc -->
 ```
 Movie Store
 ```
@@ -207,9 +226,9 @@ Movie Store
 <details>
 <summary><code>GET</code> <code>/movies/123/edit</code></summary>
 
-##### Code: 200
+##### Code: 200 <!-- omit from toc -->
 
-##### Content
+##### Content <!-- omit from toc -->
 ```
 Movie Edit by ID: 123
 ```
@@ -218,9 +237,9 @@ Movie Edit by ID: 123
 <details>
 <summary><code>PUT</code> <code>/movies/123</code></summary>
 
-##### Code: 200
+##### Code: 200 <!-- omit from toc -->
 
-##### Content
+##### Content <!-- omit from toc -->
 ```
 Movie Update by ID: 123
 ```
@@ -229,9 +248,9 @@ Movie Update by ID: 123
 <details>
 <summary><code>DELETE</code> <code>/movies/123</code></summary>
 
-##### Code: 200
+##### Code: 200 <!-- omit from toc -->
 
-##### Content
+##### Content <!-- omit from toc -->
 ```
 Movie Destroy by ID: 123
 ```

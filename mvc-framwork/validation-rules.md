@@ -1,6 +1,9 @@
-# Validation Rules
+# Validation Rules <!-- omit from toc -->
 
-## Todos
+- [Todo](#todo)
+- [Testing](#testing)
+
+## Todo
 
 Must be validate following rules
 

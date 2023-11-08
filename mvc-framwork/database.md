@@ -1,10 +1,19 @@
-# Model
+# Model <!-- omit from toc -->
+
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+  - [Step 1](#step-1-1)
+  - [Step 3](#step-3)
+- [Testing](#testing)
 
 ## Todo
 
 Create Database class in `Core/Database.php` for Model
 
 ## Steps
+
+### Step 1
 
 Create a database `mtm_movie`
 
@@ -20,6 +29,8 @@ Create table `movies`
 | poster_image_path | varchar(255)        | No       |                   |
 | created_at        | datetime            | No       | current_timestamp |
 | updated_at        | datetime            | No       | current_timestamp |
+
+### Step 1
 
 Create files
 
@@ -45,6 +56,8 @@ Create files
     ├── autoload.php
     └── test.php
 ```
+
+### Step 3
 
 Put code in `config/database.php`. Use correct database credentials.
 

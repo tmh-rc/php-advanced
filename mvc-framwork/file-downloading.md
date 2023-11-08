@@ -1,4 +1,10 @@
-# File Downloading
+# File Downloading <!-- omit from toc -->
+
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+  - [Step 2](#step-2)
+- [Testing](#testing)
 
 ## Todo
 

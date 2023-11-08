@@ -1,8 +1,9 @@
-# Advanced Routing
+# Advanced Routing <!-- omit from toc -->
 
-Update route URI
+## Todo
 
-**Current**
+- Change more readable route parameters
+
 ```php
 // Old Code
 $router->get('movies/(\w+)/edit', [MovieController::class, 'edit']);

@@ -1,6 +1,12 @@
-# Validation Automatic Redirection
+# Validation Automatic Redirection <!-- omit from toc -->
 
-## Todos
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+- [Testing](#testing)
+
+
+## Todo
 
 - Add `validate` method to automatic redirection when validation failed
 
@@ -15,6 +21,8 @@ class Validator
 ```
 
 ## Steps
+
+### Step 1
 
 ```php
 // Old

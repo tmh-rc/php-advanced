@@ -1,6 +1,13 @@
-# Validation
+# Validation <!-- omit from toc -->
 
-## Todos
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+  - [Step 2](#step-2)
+  - [Step 3](#step-3)
+- [Testing](#testing)
+
+## Todo
 
 - Create `Validator` class. Must include `make`, `fails` and `errors` method as following
 
@@ -30,6 +37,8 @@ class Validator
 
 ## Steps
 
+### Step 1
+
 Create a `Core/Validator` file.
 
 ```diff
@@ -55,6 +64,8 @@ Create a `Core/Validator` file.
     ├── autoload.php
     └── test.php
 ```
+
+### Step 2
 
 Usage Validating in controller
 
@@ -112,6 +123,8 @@ Usage Validating in controller
         }
     }
 ```
+
+### Step 3
 
 Display error in create and edit form
 

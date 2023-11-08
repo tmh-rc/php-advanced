@@ -1,10 +1,18 @@
-# CRUD (Create, Read, Update, Delete)
+# CRUD (Create, Read, Update, Delete) <!-- omit from toc -->
+
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+  - [Step 2](#step-2)
+- [Testing](#testing)
 
 ## Todo
 
 - Write movie CRUD.
 
 ## Steps
+
+### Step 1
 
 In controller, response movie data from database.
 
@@ -91,6 +99,8 @@ class MovieController
     }
 }
 ```
+
+### Step 2
 
 In View
 

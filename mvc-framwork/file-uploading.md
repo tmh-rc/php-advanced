@@ -1,4 +1,13 @@
-# File Uploading
+# File Uploading <!-- omit from toc -->
+
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+  - [Step 2](#step-2)
+  - [Step 3](#step-3)
+  - [Step 3](#step-3-1)
+  - [Step 4](#step-4)
+- [Testing](#testing)
 
 ## Todo
 

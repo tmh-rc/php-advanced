@@ -1,4 +1,9 @@
-# Authorization And Middleware
+# Authorization And Middleware <!-- omit from toc -->
+
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+- [Testing](#testing)
 
 ## Todo
 
