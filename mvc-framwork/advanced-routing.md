@@ -17,3 +17,5 @@ $router->put('movies/{id}', [MovieController::class, 'update']);
 $router->get('movies/{id}', [MovieController::class, 'show']);
 $router->delete('movies/{id}', [MovieController::class, 'destroy']);
 ```
+
+[Previous](./routing.md) | [Next](./helper.md)

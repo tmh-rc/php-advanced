@@ -166,3 +166,5 @@ Show error messages in the create and edit forms.
 ## Testing
 
 An error message must be shown in the view when validation fails.
+
+[Previous](./session.md) | [Next](./validation-rules.md)

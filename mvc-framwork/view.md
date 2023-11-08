@@ -113,3 +113,5 @@ class MovieController
 ## Testing
 
 The page should be compatible with the existing movie [routes](./routing.md#testing).
+
+[Previous](./helper.md) | [Next](./database.md)

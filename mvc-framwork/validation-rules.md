@@ -61,3 +61,5 @@ Add more validation rules in the controllers
 ## Testing
 
 More defined validations rules must work correctly.
+
+[Previous](./validation.md) | [Next](./validation-automatic-redirection.md)

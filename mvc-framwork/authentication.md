@@ -183,3 +183,5 @@ Create the `login` from in `views/auth/login.php` and `register` form in `views/
 ## Testing
 
 It must be able to login and register.
+
+[Previous](./validation-automatic-redirection.md) | [Next](./authorization-and-middleware.md)

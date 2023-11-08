@@ -52,3 +52,5 @@ $validator = Validator::make(request()->all(), [
 ## Testing
 
 It should operate as it did in the previous state.
+
+[Previous](./validation-rules.md) | [Next](./authentication.md)

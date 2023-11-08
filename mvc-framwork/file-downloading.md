@@ -38,3 +38,5 @@ Add download link button in movie detail page.
 ## Testing
 
 When the download button is clicked, the movie will start downloading.
+
+[Previous](./file-uploading.md)

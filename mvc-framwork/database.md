@@ -146,3 +146,5 @@ $db->query('DELETE .... WHERE id=:id', [
         'id' => 1,
     ]);
 ```
+
+[Previous](./view.md) | [Next](./crud.md)

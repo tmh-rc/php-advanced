@@ -89,3 +89,5 @@ $router = new Router;
 + require base_path('routes/web.php');
 $router->route();
 ```
+
+[Previous](./advanced-routing.md) | [Next](./view.md)

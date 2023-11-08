@@ -188,3 +188,5 @@ Update method `store` and `update` in MovieController as shown below.
 ## Testing
 
 The image can be uploaded and displayed on the page.
+
+[Previous](./facade.md) | [Next](./file-downloading.md)

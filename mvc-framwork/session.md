@@ -115,3 +115,5 @@ In the view, display the flash message that was added from the controller.
 ## Testing
 
 The flash message must be shown whenever performing `create`, `update`, or `delete` operations.
+
+[Previous](./crud.md) | [Next](./validation.md)

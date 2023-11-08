@@ -255,3 +255,5 @@ Movie Update by ID: 123
 Movie Destroy by ID: 123
 ```
 </details>
+
+[Previous](./autoloading-classes.md) | [Next](./advanced-routing.md)
