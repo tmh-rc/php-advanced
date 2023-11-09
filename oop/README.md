@@ -25,6 +25,9 @@ Learn and answer below. The questions are
 - Interface
 - Traits
 - Exception
+- Predefined Variables
+  - $argc
+  - $argv
 
 
 [Previous](../README.md) | [Next](../design-pattern/README.md)

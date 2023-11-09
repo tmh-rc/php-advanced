@@ -162,3 +162,5 @@ The code in the view should adhere to the following outlined structure. Addition
 ## Testing
 
 Run `php -S localhost:8080` in terminal. Perform CRUD operations.
+
+[Previous](./database.md) | [Next](./session.md)

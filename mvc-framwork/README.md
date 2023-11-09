@@ -18,6 +18,7 @@ Create PHP MVC framework like [Laravel](https://laravel.com/) then develop movie
 - [Facade](./facade.md)
 - [File Uploading](./file-uploading.md)
 - [File Downloading](./file-downloading.md)
+- [Pagination](./pagination.md)
 
 > Pending ...
 >
