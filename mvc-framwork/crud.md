@@ -43,7 +43,7 @@ class MovieController
 
     public function show($id)
     {
-        $movie = $this->db->query('SELECT...', ['id' => $id])->get();
+        $movie = $this->db->query('SELECT...', ['id' => $id])->first();
 
         echo view('movies.show', [
             'movie' => $movie
@@ -70,7 +70,7 @@ class MovieController
 
     public function edit($id)
     {
-        $movie = $this->db->query('SELECT...', ['id' => $id])->get();
+        $movie = $this->db->query('SELECT...', ['id' => $id])->first();
 
         echo view('movies.edit', [
             'movie' => $movie
