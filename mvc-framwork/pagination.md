@@ -55,3 +55,5 @@ Show movies through pagination on the movie list page instead of showing all mov
 ## Testing
 
 The movies can be paginated.
+
+[Previous](./file-downloading.md) | [Next](./command.md)

@@ -39,4 +39,4 @@ Add download link button in movie detail page.
 
 When the download button is clicked, the movie will start downloading.
 
-[Previous](./file-uploading.md)
+[Previous](./file-uploading.md) | [Next](./pagination.md)

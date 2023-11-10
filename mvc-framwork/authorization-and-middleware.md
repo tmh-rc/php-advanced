@@ -29,4 +29,4 @@ $router->post('/register', RegisterController::class, 'store')->middleware('gues
 - `login` and `register` can be used to only allow unauthenticated users
 - `logout` can be used to only allow authenticated users
 
-[Previous](./authorization-and-middleware.md) | [Next](./facade.md)
+[Previous](./authentication.md) | [Next](./facade.md)

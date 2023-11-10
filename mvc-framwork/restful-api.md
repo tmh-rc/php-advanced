@@ -366,4 +366,4 @@ API response must be following.
 
 Perform CRUD operations.
 
-[Previous]() | [Next]()
+[Previous](./command.md) | [Next](./testing.md)

@@ -81,3 +81,5 @@ App must be up and running ‌as before when run the command `php artisan serve`
 ```
 http://localhost:8080
 ```
+
+[Previous](./pagination.md) | [Next](./restful-api.md)

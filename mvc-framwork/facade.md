@@ -125,4 +125,4 @@ class Facade
 
 Make sure all queries still work the same way, even after changing the DB facade.
 
-[Previous](./authentication.md) | [Next](./file-uploading.md)
+[Previous](./authorization-and-middleware.md) | [Next](./file-uploading.md)
