@@ -22,10 +22,5 @@ Create PHP MVC framework like [Laravel](https://laravel.com/) then develop movie
 - [Command](./command.md)
 - [RESTful API](./restful-api.md)
 - [Testing](./testing.md)
-
-> Pending ...
->
-- [x] [Pagination]()
-- [x] [Command]()
-- [x] [RESTful API]()
-- [x] - [Unit Test]()
+- [CSV](./csv.md)
+- [Batch Command](./batch-command.md)

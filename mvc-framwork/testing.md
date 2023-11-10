@@ -46,7 +46,7 @@ Create folders and files as following outlined structure for testing.
     │       └── register.php
 +   ├── tests/
 +   │   └── MovieListTest.php
-+   │   └── MovieDetialTest.php
++   │   └── MovieDetailTest.php
 +   │   └── MovieCreateTest.php
 +   │   └── MovieEditTest.php
 +   │   └── MovieDeleteTest.php
