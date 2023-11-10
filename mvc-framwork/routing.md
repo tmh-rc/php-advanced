@@ -18,6 +18,7 @@
 ### Step 1
 
 Create folders and files as following outlined structure within the `movie-app` folder.
+
 > Note: No need to delete previous folders and files.
 
 ```diff
@@ -177,6 +178,7 @@ class Router
 ## Testing
 
 Write code in the `route` method using regular expressions for the URI. Ensure that the following routes function correctly.
+
 > Note: No form has been created yet. Therefore, test with [Postman](https://www.postman.com/).
 
 <details>
@@ -185,9 +187,11 @@ Write code in the `route` method using regular expressions for the URI. Ensure t
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```
 Movie list
 ```
+
 </details>
 
 <details>
@@ -196,9 +200,11 @@ Movie list
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```
 Movie detail by ID: 123
 ```
+
 </details>
 
 <details>
@@ -207,9 +213,11 @@ Movie detail by ID: 123
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```
 Movie Create
 ```
+
 </details>
 
 <details>
@@ -218,9 +226,11 @@ Movie Create
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```
 Movie Store
 ```
+
 </details>
 
 <details>
@@ -229,9 +239,11 @@ Movie Store
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```
 Movie Edit by ID: 123
 ```
+
 </details>
 
 <details>
@@ -240,9 +252,11 @@ Movie Edit by ID: 123
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```
 Movie Update by ID: 123
 ```
+
 </details>
 
 <details>
@@ -251,9 +265,11 @@ Movie Update by ID: 123
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```
 Movie Destroy by ID: 123
 ```
+
 </details>
 
 [Previous](./autoloading-classes.md) | [Next](./advanced-routing.md)

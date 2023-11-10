@@ -7,7 +7,6 @@
   - [Step 3](#step-3)
 - [Testing](#testing)
 
-
 ## Todo
 
 - Create Pagination

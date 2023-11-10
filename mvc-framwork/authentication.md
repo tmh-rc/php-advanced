@@ -65,17 +65,17 @@ class Auth
     {
         // TODO: Authenticate the user
         // TODO: If authentication is successful, store user info to session and return user
-        // TODO: else return null 
+        // TODO: else return null
     }
 
     public function user(): array|null
     {
-        // TODO: if login user is exist in session, return user otherwise null; 
+        // TODO: if login user is exist in session, return user otherwise null;
     }
 
     public function id(): int|null
     {
-        // TODO: if login user is exist in session, return user's id otherwise null; 
+        // TODO: if login user is exist in session, return user's id otherwise null;
     }
 
     public function check(): bool

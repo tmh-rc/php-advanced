@@ -1,4 +1,12 @@
-# RESTful API
+# RESTful API <!-- omit from toc -->
+
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+  - [Step 2](#step-2)
+  - [Step 3](#step-3)
+  - [Step 4](#step-4)
+- [Testing](#testing)
 
 ## Todo
 
@@ -176,7 +184,7 @@ class MovieController
     public function destroy($id)
     {
         $movie = DB::query('SELECT...', ['id' => $id])->first();
-        
+
         if(! $movie) {
             echo Response::json(['message' => 'Page not found.'], 404);
             return;
@@ -199,6 +207,7 @@ API response must be following.
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```json
 [
     {
@@ -212,6 +221,7 @@ API response must be following.
     ...
 ]
 ```
+
 </details>
 
 <details>
@@ -220,18 +230,20 @@ API response must be following.
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```json
 {
-    "id": 1,
-    "title": "Movie Title",
-    "duration_minutes": 120,
-    "plot_summary": "Lorem ...",
-    "released_at": "2023-11-9",
-    "poster_image_path": "http://localhost:8080/upload/image/image_name.png",
-    "created_at": "2023-11-9 00:00:00",
-    "updated_at": "2023-11-9 00:00:00",
+  "id": 1,
+  "title": "Movie Title",
+  "duration_minutes": 120,
+  "plot_summary": "Lorem ...",
+  "released_at": "2023-11-9",
+  "poster_image_path": "http://localhost:8080/upload/image/image_name.png",
+  "created_at": "2023-11-9 00:00:00",
+  "updated_at": "2023-11-9 00:00:00"
 }
 ```
+
 </details>
 
 <details>
@@ -240,7 +252,7 @@ API response must be following.
 ##### Parameters <!-- omit from toc -->
 
 | Name             | Type     | Data Type |
-|------------------|----------|-----------|
+| ---------------- | -------- | --------- |
 | title            | required | string    |
 | duration_minutes | required | int       |
 | plot_summary     | required | string    |
@@ -250,33 +262,36 @@ API response must be following.
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```json
 {
-    "id": 1,
-    "title": "Movie Title",
-    "duration_minutes": 120,
-    "plot_summary": "Lorem ...",
-    "released_at": "2023-11-9",
-    "poster_image_path": "http://localhost:8080/upload/image/image_name.png",
-    "created_at": "2023-11-9 00:00:00",
-    "updated_at": "2023-11-9 00:00:00",
+  "id": 1,
+  "title": "Movie Title",
+  "duration_minutes": 120,
+  "plot_summary": "Lorem ...",
+  "released_at": "2023-11-9",
+  "poster_image_path": "http://localhost:8080/upload/image/image_name.png",
+  "created_at": "2023-11-9 00:00:00",
+  "updated_at": "2023-11-9 00:00:00"
 }
 ```
 
 ##### Code: 422 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```json
 {
-    "errors": {
-        "title": ["The title field is required."],
-        "duration_minutes": ["The duration minutes field is required."],
-        "plot_summary": ["The plot summary field is required."],
-        "released_at": ["The released at field is required."],
-        "poster_image": ["The poster image field is required."],
-    }
+  "errors": {
+    "title": ["The title field is required."],
+    "duration_minutes": ["The duration minutes field is required."],
+    "plot_summary": ["The plot summary field is required."],
+    "released_at": ["The released at field is required."],
+    "poster_image": ["The poster image field is required."]
+  }
 }
 ```
+
 </details>
 
 <details>
@@ -285,8 +300,8 @@ API response must be following.
 ##### Parameters <!-- omit from toc -->
 
 | Name             | Type     | Data Type | Description         |
-|------------------|----------|-----------|---------------------|
-| _method          | required | string    | The value is 'PUT'. |
+| ---------------- | -------- | --------- | ------------------- |
+| \_method         | required | string    | The value is 'PUT'. |
 | title            | required | string    |                     |
 | duration_minutes | required | int       |                     |
 | plot_summary     | required | string    |                     |
@@ -296,33 +311,36 @@ API response must be following.
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```json
 {
-    "id": 1,
-    "title": "Movie Title",
-    "duration_minutes": 120,
-    "plot_summary": "Lorem ...",
-    "released_at": "2023-11-9",
-    "poster_image_path": "http://localhost:8080/upload/image/image_name.png",
-    "created_at": "2023-11-9 00:00:00",
-    "updated_at": "2023-11-9 00:00:00",
+  "id": 1,
+  "title": "Movie Title",
+  "duration_minutes": 120,
+  "plot_summary": "Lorem ...",
+  "released_at": "2023-11-9",
+  "poster_image_path": "http://localhost:8080/upload/image/image_name.png",
+  "created_at": "2023-11-9 00:00:00",
+  "updated_at": "2023-11-9 00:00:00"
 }
 ```
 
 ##### Code: 422 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```json
 {
-    "errors": {
-        "title": ["The title field is required."],
-        "duration_minutes": ["The duration minutes field is required."],
-        "plot_summary": ["The plot summary field is required."],
-        "released_at": ["The released at field is required."],
-        "poster_image": ["The poster image field must be image."],
-    }
+  "errors": {
+    "title": ["The title field is required."],
+    "duration_minutes": ["The duration minutes field is required."],
+    "plot_summary": ["The plot summary field is required."],
+    "released_at": ["The released at field is required."],
+    "poster_image": ["The poster image field must be image."]
+  }
 }
 ```
+
 </details>
 
 <details>
@@ -330,16 +348,18 @@ API response must be following.
 
 ##### Parameters <!-- omit from toc -->
 
-| Name             | Type     | Data Type | Description      ...   |
-|------------------|----------|-----------|------------------------|
-| _method          | required | string    | The value is 'DELETE'. |
+| Name     | Type     | Data Type | Description ...        |
+| -------- | -------- | --------- | ---------------------- |
+| \_method | required | string    | The value is 'DELETE'. |
 
 ##### Code: 200 <!-- omit from toc -->
 
 ##### Content <!-- omit from toc -->
+
 ```json
 {}
 ```
+
 </details>
 
 ## Testing

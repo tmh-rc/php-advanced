@@ -5,7 +5,6 @@
   - [Step 1](#step-1)
 - [Testing](#testing)
 
-
 ## Todo
 
 - Add the `validate` method for automatic redirection when validation fails.

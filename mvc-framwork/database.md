@@ -17,17 +17,16 @@ Create a `Database` class in `Core/Database.php` for Model
 
 Create a database named `mtm_movie` and table named `movies` based on the following schema.
 
-
-| Name              | Type                | Nullable | Default           |
-|-------------------|---------------------|----------|-------------------|
-| id                | int auto_increment  | No       |                   |
-| title             | varchar(255)        | No       |                   |
-| duration_minutes  | int                 | No       |                   |
-| plot_summary      | text                | No       |                   |
-| released_at       | date                | No       |                   |
-| poster_image_path | varchar(255)        | No       |                   |
-| created_at        | datetime            | No       | current_timestamp |
-| updated_at        | datetime            | No       | current_timestamp |
+| Name              | Type               | Nullable | Default           |
+| ----------------- | ------------------ | -------- | ----------------- |
+| id                | int auto_increment | No       |                   |
+| title             | varchar(255)       | No       |                   |
+| duration_minutes  | int                | No       |                   |
+| plot_summary      | text               | No       |                   |
+| released_at       | date               | No       |                   |
+| poster_image_path | varchar(255)       | No       |                   |
+| created_at        | datetime           | No       | current_timestamp |
+| updated_at        | datetime           | No       | current_timestamp |
 
 ### Step 1
 

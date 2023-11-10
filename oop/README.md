@@ -1,6 +1,7 @@
 # Object-oriented programming (OOP)
 
 Learn and answer below. The questions are
+
 1. What is x? (eg. What is class?)
 2. How to use x? (eg. How to use class?)
 3. When should use x? (eg. When should use class?)
@@ -28,6 +29,5 @@ Learn and answer below. The questions are
 - Predefined Variables
   - $argc
   - $argv
-
 
 [Previous](../README.md) | [Next](../design-pattern/README.md)

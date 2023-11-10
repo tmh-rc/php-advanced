@@ -1,5 +1,12 @@
 # Testing <!-- omit from toc -->
 
+- [Todo](#todo)
+- [Steps](#steps)
+  - [Step 1](#step-1)
+  - [Step 2](#step-2)
+  - [Step 3](#step-3)
+- [Testing](#testing)
+
 ## Todo
 
 Write a integration testing for movie using [PHPUnit](https://packagist.org/packages/phpunit/phpunit)
@@ -78,7 +85,7 @@ final class MovieListTest extends TestCase
 
     public function test_can_paginate_movies(): void
     {
-        
+
     }
 }
 ```
@@ -98,7 +105,7 @@ final class MovieShowTest extends TestCase
 
     public function test_can_be_see_a_specific_movie(): void
     {
-        
+
     }
 }
 ```
@@ -118,37 +125,37 @@ final class MovieCreateTest extends TestCase
 
     public function test_authenticated_users_can_create_a_new_movie(): void
     {
-        
+
     }
 
     public function test_unauthenticated_users_cannot_create_a_new_movie(): void
     {
-        
+
     }
 
     public function test_a_movie_require_a_title(): void
     {
-        
+
     }
 
     public function test_a_movie_require_a_duration_minutes(): void
     {
-        
+
     }
 
     public function test_a_movie_require_a_plot_summary(): void
     {
-        
+
     }
 
     public function test_a_movie_require_a_released_at(): void
     {
-        
+
     }
 
     public function test_a_movie_require_a_poster_image(): void
     {
-        
+
     }
 }
 ```
@@ -168,37 +175,37 @@ final class MovieEditTest extends TestCase
 
     public function test_authenticated_users_can_edit_a_movie(): void
     {
-        
+
     }
 
     public function test_unauthenticated_users_cannot_edit_a_movie(): void
     {
-        
+
     }
 
     public function test_a_movie_require_a_title(): void
     {
-        
+
     }
 
     public function test_a_movie_require_a_duration_minutes(): void
     {
-        
+
     }
 
     public function test_a_movie_require_a_plot_summary(): void
     {
-        
+
     }
 
     public function test_a_movie_require_a_released_at(): void
     {
-        
+
     }
 
     public function test_a_movie_require_a_poster_image(): void
     {
-        
+
     }
 }
 ```
@@ -213,12 +220,12 @@ final class MovieDeleteTest extends TestCase
 {
     public function test_authenticated_users_can_delete_a_movie(): void
     {
-        
+
     }
 
     public function test_unauthenticated_users_cannot_delete_a_movie(): void
     {
-        
+
     }
 }
 ```

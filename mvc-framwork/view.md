@@ -1,4 +1,4 @@
-# View  <!-- omit from toc -->
+# View <!-- omit from toc -->
 
 - [Todo](#todo)
 - [Steps](#steps)
