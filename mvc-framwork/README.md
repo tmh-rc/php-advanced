@@ -20,11 +20,12 @@ Create PHP MVC framework like [Laravel](https://laravel.com/) then develop movie
 - [File Downloading](./file-downloading.md)
 - [Pagination](./pagination.md)
 - [Command](./command.md)
-- [RESTful API]()
+- [RESTful API](./restful-api.md)
+- [Testing](./testing.md)
 
 > Pending ...
 >
 - [x] [Pagination]()
 - [x] [Command]()
-> - [RESTful API]()
-> - [Unit Test]()
+- [x] [RESTful API]()
+- [x] - [Unit Test]()
